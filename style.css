@@ -12,3 +12,22 @@ body{
     margin: 20px auto;
     min-height: 500px;
 }
+ul li{
+    list-style: url(check.png);
+}
+ol li{
+    list-style-type: decimal;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    display: inline-block;
+    width: 150px;
+    background-color: #999;
+    color:#fff;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+}
